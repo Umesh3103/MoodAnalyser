@@ -8,6 +8,7 @@ public class MoodAnalyserException extends Exception {
 	ExceptionType exceptionType;
 	public MoodAnalyserException(ExceptionType exceptionType, String message) {
 		super(message);
+		this.exceptionType=exceptionType;
 		// TODO Auto-generated constructor stub
 	}
 	
