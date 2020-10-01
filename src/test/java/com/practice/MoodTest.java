@@ -9,6 +9,6 @@ public class MoodTest {
 	public void givenMessage_WhenSad_shouldGiveSad(){
 		MoodAnalyser validator = new MoodAnalyser(null);
 		String result = validator.analyseMood();
-		Assert.assertEquals("0",result);
+		Assert.assertEquals("HAPPY",result);
 	}
 }

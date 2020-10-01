@@ -23,7 +23,7 @@ public class MoodAnalyser {
 			}
 		}
 		catch(Exception e){
-			return "0";
+			return "HAPPY";
 		}
 	}
 }
