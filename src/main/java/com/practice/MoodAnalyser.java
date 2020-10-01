@@ -3,7 +3,7 @@ package com.practice;
 public class MoodAnalyser {
 	public static void main(String[] args) {
 		System.out.println("Welcome to mood analyser problem");
-		
+		System.out.println("Updating");
 	}
 	
 	private String message;
